@@ -118,10 +118,10 @@ def call_otp():
                 #result.append(data[i])
         print(result)
 
-        list_sid = ['AC96bd4b0c17b0ac71102b5e9ea6017bf9']
-        list_token = ['874601cfda64d92ba7b44a581f7de8c0']
-        list_from_phone = ['+19124173820']
-        list_to_phone = ['+917032459373']
+        list_sid = ['id']
+        list_token = ['token']
+        list_from_phone = ['twiliomobileno']
+        list_to_phone = ['mobileno']
 
         for i in range(len(list_sid)):
             print(list_sid[i], list_token[i])
