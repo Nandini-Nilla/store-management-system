@@ -16,7 +16,7 @@ import sys
 from twilio.rest import Client
 
 
-con = cs.connect('nandini/123456@localhost')
+con = cs.connect('name/password@localhost')
 cur = con.cursor()
 
 def read_func():
