@@ -8,7 +8,7 @@ from PIL import ImageTk, Image
 
 
 def products():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
     con.commit()
 
@@ -49,7 +49,7 @@ def products():
 
 
 def category():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
     con.commit()
 
@@ -81,7 +81,7 @@ def category():
         i=i+1
 
 def supplier():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
     con.commit()
 
@@ -117,7 +117,7 @@ def supplier():
         i=i+1
 
 def employee():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
     con.commit()
 

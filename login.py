@@ -10,7 +10,7 @@ from PIL import ImageTk, Image
 def login_func():
     # Database connection
     #cs.init_oracle_client(lib_dir="/path/to/oracle/client/lib")
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
     # Window

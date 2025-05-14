@@ -10,7 +10,7 @@ import login
 
 
 def product_func():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
     window_product = tk.Tk()
@@ -115,7 +115,7 @@ def product_func():
 # product_func()
 
 def category_func():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
     window_category = tk.Tk()
@@ -196,7 +196,7 @@ def category_func():
 # category_func()
 
 def supplier_func():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
     window_supplier = tk.Tk()

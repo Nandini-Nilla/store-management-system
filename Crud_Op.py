@@ -14,7 +14,7 @@ import login
 
 
 def crud_func():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
 
