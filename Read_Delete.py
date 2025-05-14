@@ -94,7 +94,7 @@ def read_func():
 def call_otp():
     try:
 
-        con = cs.connect('nandini/123456@localhost')
+        con = cs.connect('name/password@localhost')
         cur = con.cursor()
         # Creating a table srollno heading which is number
 
@@ -149,7 +149,7 @@ def call_otp():
 
 
 def delete_func():
-    con = cs.connect('nandini/123456@localhost')
+    con = cs.connect('name/password@localhost')
     cur = con.cursor()
 
     window_delete = tk.Tk()
